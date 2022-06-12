@@ -4,6 +4,30 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* navbar  */
+.header{
+    background: #2D25A0;
+    padding-top: 42px;
+    color: #FFFFFF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 113px;
+    font-size: 16px;
+}
+.menu>ul{
+    display: flex;
+}
+.menu>ul>li{
+    list-style: none;
+    margin-right: 36px;
+}
+.login-div{
+    margin-right: 130px;
+    margin-top: 20px;
+}
+/* front-page  */
 .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -25,7 +49,7 @@ body{
 .watchl{
     margin-top: -20px;
 }
-.watchlive,.watchnow{
+.watchlive,.watchnow,.login{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
